@@ -3,13 +3,13 @@ package projeto.calculadora;
 import javax.swing.*;
 
 public class Adicionar {
-	public static void Valores(boolean primeiroCampo, JButton Btn, JTextField ValorUm, JTextField ValorDois) {
+	public static void valores(boolean primeiroCampo, JButton Btn, JTextField valorUm, JTextField valorDois) {
 		String valor = Btn.getText();
 		
 		if(primeiroCampo) {
-			ValorUm.setText(ValorUm.getText() + valor);
+			valorUm.setText(valorUm.getText() + valor);
 		}else {
-			ValorDois.setText(ValorDois.getText()+ valor);
+			valorDois.setText(valorDois.getText()+ valor);
 		}
 	}
 }
